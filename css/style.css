@@ -1,0 +1,585 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+    outline: none !important;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    color: #343434;
+    font-weight: 400;
+}
+/* Navbar - Start */
+.navbar .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbar .container .nav-logo{
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* Navbar - End */
+
+/* Home - Start */
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/home-bg.jpg);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+.home .card{
+    color: white;
+    width: 50%;
+    margin: auto;
+    top: 50%;
+    transform: translate(0%, -50%);
+    border-radius: 0;
+    border-color: transparent;
+    background-color: inherit;
+}
+.home .caption .home-icon{
+    display: inline-block;
+}
+.home .caption .home-icon ul{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+}
+.home .caption .home-icon ul li a{
+    color: white;
+
+}
+.home .caption .home-icon ul li a i{
+    font-size: 14px;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.home .caption h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.home .caption h4{
+    font-weight: 200;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    padding: 0.2rem;
+}
+.home .caption h4::after{
+    content: "|";
+    animation: typing 7s infinite;
+}
+@keyframes typing{
+    0%{
+        content: "L|" ;
+    }
+    1%{
+        content: "La|" ;
+    }
+    2%{
+        content: "Lar|" ;
+    }
+    3%{
+        content: "Larr|" ;
+    }
+    4%{
+        content: "Larry|" ;
+    }
+    5%{
+        content: "Larry |" ;
+    }
+    6%{
+        content: "Larry D|" ;
+    }
+    7%{
+        content: "Larry Da|" ;
+    }
+    8%{
+        content: "Larry Dan|" ;
+    }
+    9%{
+        content: "Larry Dani|" ;
+    }
+    10%{
+        content: "Larry Danie|" ;
+    }
+    11%{
+        content: "Larry Daniel|" ;
+    }
+    12%{
+        content: "Larry Daniels|" ;
+    }
+    20%{
+        content: "Larry Daniels|" ;
+    }
+    21%{
+        content: "Larry Daniel|" ;
+    }
+    22%{
+        content: "Larry Danie|" ;
+    }
+    23%{
+        content: "Larry Dani|" ;
+    }
+    24%{
+        content: "Larry Dan|" ;
+    }
+    25%{
+        content: "Larry Da|" ;
+    }
+    26%{
+        content: "Larry D|" ;
+    }
+    27%{
+        content: "Larry |" ;
+    }
+    28%{
+        content: "Larry|" ;
+    }
+    29%{
+        content: "Larr|" ;
+    }
+    30%{
+        content: "Lar|" ;
+    }
+    31%{
+        content: "La|" ;
+    }
+    32%{
+        content: "L|" ;
+    }
+    33%{
+        content: "|" ;
+    }
+    41%{
+        content: "D|" ;
+    }
+    42%{
+        content: "De|" ;
+    }
+    43%{
+        content: "Dev|" ;
+    }
+    44%{
+        content: "Deve|" ;
+    }
+    45%{
+        content: "Devel|" ;
+    }
+    46%{
+        content: "Develo|" ;
+    }
+    47%{
+        content: "Develop|" ;
+    }
+    48%{
+        content: "Develope|" ;
+    }
+    49%{
+        content: "Developer|" ;
+    }
+    57%{
+        content: "Developer|" ;
+    }
+    58%{
+        content: "Develope|" ;
+    }
+    59%{
+        content: "Develop|" ;
+    }
+    60%{
+        content: "Develo|" ;
+    }
+    61%{
+        content: "Devel|" ;
+    }
+    62%{
+        content: "Deve|" ;
+    }
+    63%{
+        content: "Dev|" ;
+    }
+    64%{
+        content: "De|" ;
+    }
+    65%{
+        content: "D|" ;
+    }
+    66%{
+        content: "|" ;
+    }
+    74%{
+        content: "D|" ;
+    }
+    75%{
+        content: "De|" ;
+    }
+    76%{
+        content: "Des|" ;
+    }
+    77%{
+        content: "Desi|" ;
+    }
+    78%{
+        content: "Desig|" ;
+    }
+    79%{
+        content: "Design|" ;
+    }
+    80%{
+        content: "Designe|" ;
+    }
+    81%{
+        content: "Designer|" ;
+    }
+    89%{
+        content: "Designer|" ;
+    }
+    90%{
+        content: "Designe|" ;
+    }
+    91%{
+        content: "Design|" ;
+    }
+    92%{
+        content: "Desig|" ;
+    }
+    93%{
+        content: "Desi|" ;
+    }
+    94%{
+        content: "Des|" ;
+    }
+    95%{
+        content: "De|" ;
+    }
+    96%{
+        content: "D|" ;
+    }
+    97%{
+        content: "|" ;
+    }
+}
+/* Home - End */
+
+/* About - Start */
+.about{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 5px;
+}
+.about .row .col-md-5{
+    min-height: 1px;
+    padding: 30px;
+}
+.about .row .about-img{
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    padding: 0 0 10px 10px;
+}
+.about .row .about-img img{
+    width: 100%;
+    margin: -50px 0 20px 20px;
+}
+.about .row .col-md-7 .about-cap h3{
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.about .row .col-md-7 .about-cap .about-title{
+    color: #999;
+    letter-spacing: 2px;
+}
+.about .row .col-md-7 .about-cap .info{
+    line-height: 1.5rem;
+    margin: 30px 0;
+    font-size: 15px;
+    color: #748182;
+}
+.about .row .col-md-7 .about-cap .skills .progress{
+    margin-bottom: 30px;
+    height: 25px;
+    border-radius: 5px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+}
+.about .row .col-md-7 .about-cap .skills .progress .progress-bar{
+    background-color: black;
+}
+.about .row .col-md-7 .about-cap .skills .progress .progress-cap{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.about .row .col-md-7 .about-cap .skills .progress .progress-cap p,h6{
+    margin: auto 0;
+    padding: 0 5px;
+    font-size: 0.8rem;
+}
+.about .row .col-md-7 .about-cap .d-grid .btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.about .row .col-md-7 .about-cap .d-grid .btn1{
+    background-color: black;
+}
+.about .row .col-md-7 .about-cap .d-grid .btn1:hover{
+    color: black;
+    background-color: white;
+}
+.about .row .col-md-7 .about-cap .d-grid .btn2:hover{
+    color: white;
+    background-color: black;
+}
+/* About - End */
+
+/* Services - Start */
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #f7f7f7;
+    padding: 30px 0;
+}
+.services .row{
+    width: 90%;
+    margin: 30px auto;
+}
+.services h3,.works h3,.clients h3,.team h3,.contact h3{
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+    margin: 30px auto;
+}
+.services h3::after,.works h3::after,.clients h3::after,.team h3::after,.contact h3::after{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+.services .row .col .card{
+    border: 0;
+    background-color: white;
+    padding: 50px 20px;
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+.services .row .col .card:hover span{
+    background-color: black;
+    color: white;
+}
+.services .row .col .card span{
+    margin: auto;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%;
+}
+.services .row .col .card h6{
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.services .row .col .card p{
+    color: #748182;
+}
+/* Services - End */
+
+/* Works - Start */
+.works{
+    width: 90%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px 0;
+}
+.works .portfolio .nav{
+    width: 30%;
+    margin: auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.works .portfolio .nav .nav-link{
+    padding: 5px;
+    color: black;
+}
+.works .portfolio .nav-link.active{
+    color: black;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+.works .portfolio .tab-content .tab-pane .row .col .card{
+    border-radius: 0%;
+    border: none;
+}
+/* Works - End */
+
+/* Clients - Start */
+.clients{
+    background-color: #f7f7f7;
+    margin: auto;
+    padding: 30px 0 100px;
+}
+.clients .clients-cap{
+    margin-top: 30px;
+}
+.w-10{
+    width: 12%;
+}
+#clients .curs-btn{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #869791;
+    margin: 5px;
+}
+/* Clients - End */
+
+/* Numbers - Start */
+.numbers{
+    padding: 100px 0;
+}
+.col-md-3{
+    padding: 20px 0;
+}
+.numbers .container .row .item i{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.numbers h3 {
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.numbers p {
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+/* Numbers - End */
+
+/* Team - Start */
+.team{
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+.team .team-cap{
+    padding: 50px 0;
+}
+.team .row{
+    width: 90%;
+    margin: auto;
+}
+.team .row .col .card .team-img img{
+    width: 100%;
+}
+.team .row .col .card .team-txt{
+    background-color: rgba(52, 52, 52,.8);
+    color: white;
+    padding: 25px;
+}
+/* Team - End */
+
+/* Contact - Start */
+.contact{
+    padding: 50px 0;
+    margin: auto;
+}
+.contact .row{
+    width: 80%;
+    margin: auto;
+}
+.contact .row .col .card{
+    border: 0;
+    margin-bottom: 30px;
+}
+.contact .contact-icon .col .card .icon{
+    font-size: 25px;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.contact .row .col .card:hover span{
+    background-color: black;
+    color: white;
+}
+.contact .contact-icon .col .card h6{
+    font-weight: 700;
+    font-size: 16px;
+}
+.contact .contact-icon .col .card p{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+.contact-form{
+    margin-top: 30px;
+}
+.contact-form .btn{
+    background-color: black;
+    padding: 5px 30px;
+}
+.contact-form .btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.input-group .form-control{
+    background-color: #f7f7f7;
+}
+.form-btn{
+    text-align: left;
+}
+/* Contact - End */
+
+/* Footer - Start */
+.footer{
+    background-color: black;
+    padding: 10px;
+}
+.footer p{
+    font-size: 13px;
+    word-spacing: 2px;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+    margin: 50px 0;
+}
+/* Footer - End */
